@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-   
+    "dev:blog": "pnpm --filter blog run dev --open",
+    "dev:weather": "pnpm --filter weather run dev --open"
   },
   "keywords": [],
   "author": "",
