@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, Navigate } from "react-router";
 import App from "../App";
 import My from "../pages/my";
 import About from "../pages/about";
@@ -10,7 +10,10 @@ export const router = createBrowserRouter([
         Component: App,
         children: [
             {
-                path: "/home",
+                index: true,
+            },
+            {
+                path: "home",
                 Component: Home
             },
             {
