@@ -3,7 +3,7 @@ import Me from "../pages/me"
 import App from "../App";
 import Component from "../pages/component";
 import WebGIS from "../pages/webGIS";
-import ThreeD from "../pages/ThreeD";
+import ThreeD from "../pages/threeD";
 
 
 export const router = createBrowserRouter([
@@ -25,11 +25,11 @@ export const router = createBrowserRouter([
                 Component: Component
             },
             {
-                path: '/WebGIS',
+                path: '/webgis',
                 Component: WebGIS
             },
             {
-                path: '/3D',
+                path: '/three',
                 Component: ThreeD
             }
         ]
