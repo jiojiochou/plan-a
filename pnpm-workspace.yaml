@@ -1,4 +1,7 @@
 packages:
+  - chat
+  - finance
+  - travel
   - blog
   - weather
   - weather-service
